@@ -1,0 +1,45 @@
+#my_container{
+	background-image: url('../img/corkboard.jpg');
+	border: 20px ridge;
+	border-image: url('../img/frame.jpg') 30 30 round;
+	padding: 20px;
+
+}
+.postit{
+	background-image: url('../img/postit.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+	font-family: arial;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bold;
+	height: 192px;
+	padding: 10px 10px 10px 20px;
+	position: relative;
+	width: 185px;
+}
+.postit textarea{
+	background-color: transparent;
+	border: transparent;
+	font-family: arial;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bold;
+	height: 100px;
+	width: 130px;
+}
+#postit_container{
+	border-top: 1px solid silver;
+	overflow: hidden;
+}
+.block_float{
+	display: inline-block;
+	float: left;
+}
+.btn{
+	font-size: 9px;
+	padding: 4px;
+}
+.postit fieldset{
+	width: 145px;
+}
